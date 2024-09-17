@@ -123,7 +123,7 @@ const Work = () => {
             pagination={{ clickable: true }}
           >
             {/* show only first 4 projects in slider */}
-            {projectCard.slice(0.4).map((project, index) => {
+            {projectCard.slice(0,4).map((project, index) => {
               return (
                 <SwiperSlide key={index}>
                   <ProjectCard project={project} />
