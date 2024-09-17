@@ -64,16 +64,6 @@ const qualificationData = [
                 designation: "IT Support Specialist",
                 years: "Sep 2022 - Mar 2023 (7 months)",
             },
-            {
-                company: "Digital Printing Shop",
-                designation: "Owner",
-                years: "Oct 2020 - Sep 2021 (1 year)",
-            },
-            {
-                company: "The Business School",
-                designation: "Marketing Project Coordinator (Part-time)",
-                years: "Sep 2019 - Jan 2021 (1 yr 5 months)",
-            },
         ]
     },
     {

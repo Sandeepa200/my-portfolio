@@ -14,7 +14,6 @@ import { Pagination } from "swiper/modules";
 
 //components
 import ProjectCard from "@/components/ProjectCard";
-import { Description } from "@radix-ui/react-dialog";
 
 const projectCard = [
   {
