@@ -12,7 +12,7 @@ const Footer = () => {
                         dark:hover:text-primary transition-all"
                     />
                     {/* copyright  */}
-                    <div className="text-muted-foreground">
+                    <div className="text-muted-foreground text-center">
                         Copyright &copy; 2024 Sandeepa Rambukwella. All Rights Reserved.
                     </div>
                 </div>

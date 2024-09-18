@@ -24,7 +24,7 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Software Engineer
             </div>
-            <h1 className="h1">Hello, My Name Is Sandeepa Rambukwella</h1>
+            <h1 className="h1 mb-4">Hello, My Name Is Sandeepa Rambukwella</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
               quibusdam corporis laboriosam odio sint vero adipisci cupiditate
@@ -80,7 +80,7 @@ const Hero = () => {
           </div>
         </div>
         {/* icons  */}
-        <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
+        <div className="flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
           <RiArrowDownSLine className="text-3xl text-primary" />
         </div>
       </div>
