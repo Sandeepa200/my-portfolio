@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+/* @layer base {
   @layer base {
     :root {
       --background: 0 0% 100%;
@@ -51,7 +51,62 @@
       --ring: 8 99% 67%;
     }
   }
+} */
+
+
+/*new theme colors*/
+
+@layer base {
+  @layer base {
+    :root {
+      --background: 240 10% 95%; /* Light purple background */
+      --foreground: 260 25% 20%; /* Deep violet text */
+      --card: 240 15% 90%; /* Light violet card background */
+      --card-foreground: 260 25% 20%; /* Deep violet for card text */
+      --popover: 240 15% 90%; /* Light violet popover */
+      --popover-foreground: 260 25% 20%; /* Violet for popover text */
+      --primary: 270 60% 40%; /* Rich violet for primary elements */
+      --primary-foreground: 0 0% 100%; /* White text on primary background */
+      --secondary: 270 40% 30%; /* Slightly muted violet */
+      --secondary-foreground: 0 0% 100%; /* White text on secondary background */
+      --tertiary: 260 25% 85%; /* Soft purple tertiary color */
+      --muted: 240 10% 90%; /* Muted soft background violet */
+      --muted-foreground: 260 15% 45%; /* Muted darker text */
+      --accent: 270 60% 50%; /* Stronger violet accent */
+      --accent-foreground: 0 0% 100%; /* White text on accent */
+      --destructive: 0 60% 50%; /* Strong red for destructive actions */
+      --destructive-foreground: 0 0% 100%; /* White text on destructive */
+      --border: 270 15% 85%; /* Light violet border */
+      --input: 270 15% 85%; /* Light violet input fields */
+      --ring: 270 60% 50%; /* Violet ring for focus */
+      --radius: 0.5rem;
+    }
+
+    .dark {
+      --background: 240 25% 10%; /* Nearly black background with a hint of purple */
+      --foreground: 0 0% 100%; /* White text */
+      --card: 240 20% 15%; /* Dark purple card */
+      --card-foreground: 0 0% 100%; /* White card text */
+      --popover: 240 20% 15%; /* Dark purple popover */
+      --popover-foreground: 0 0% 100%; /* White popover text */
+      --primary: 270 60% 40%; /* Deep violet primary */
+      --primary-foreground: 0 0% 100%; /* White on primary background */
+      --secondary: 240 20% 30%; /* Muted violet secondary */
+      --secondary-foreground: 0 0% 100%; /* White on secondary background */
+      --tertiary: 240 20% 20%; /* Deep violet tertiary */
+      --muted: 240 25% 15%; /* Muted deep background for dark mode */
+      --muted-foreground: 240 30% 70%; /* Lighter text on muted backgrounds */
+      --accent: 270 70% 50%; /* Bright violet accent */
+      --accent-foreground: 0 0% 100%; /* White on accent */
+      --destructive: 0 60% 50%; /* Dark red destructive action */
+      --destructive-foreground: 0 0% 100%; /* White on destructive */
+      --border: 240, 20%, 60%; /* Dark purple border */
+      --input: 240, 20%, 60%; /* Dark purple input field */
+      --ring: 270 60% 40%; /* Violet focus ring */
+    }
+  }
 }
+
 
 @layer base {
   * {
