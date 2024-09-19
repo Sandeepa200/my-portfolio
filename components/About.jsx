@@ -138,7 +138,7 @@ const About = () => {
                     {/* tabs */}
                     <div className="flex-1">
                         <Tabs defaultValue="personal">
-                            <TabsList className="w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none">
+                            <TabsList className="w-full mx-auto xl:mx-0 grid lg:grid-cols-3 lg:max-w-[520px] lg:border dark:border-none">
                                 <TabsTrigger className="w-[162px xl:w-auto]" value="personal">Personal Info</TabsTrigger>
                                 <TabsTrigger className="w-[162px xl:w-auto]" value="qualifications">Qualifications</TabsTrigger>
                                 <TabsTrigger className="w-[162px xl:w-auto]" value="skills">Skills</TabsTrigger>
@@ -146,7 +146,7 @@ const About = () => {
                             {/* tabs content */}
                             <div className="text-lg mt-12 xl:mt-8 ">
                                 {/* personal  */}
-                                <TabsContent value="personal">
+                                <TabsContent value="personal" >
                                     <div className="text-center xl:text-left">
                                         <h3 className="h3 mb-4">Unmatched Service Quality for Over 10 Years</h3>
                                         <p className="subtitle max-w-xl mx-auto xl:mx-0">
@@ -155,12 +155,12 @@ const About = () => {
                                             user experiences.
                                         </p>
                                         {/* icons */}
-                                        <div className="grid xl:grid-cols-2 gap-4 mb-12">
+                                        <div className="max-w-xs lg:max-w-[520px] mx-auto xl:mx-0 grid lg:grid-cols-2 gap-4 mb-12 ">
                                             {infoData.map((item, index) => {
                                                 return ( 
-                                                    <div className="flex items-center gap-x-4 mx-auto xl:mx-0" key={index}>
+                                                    <div className="flex items-center gap-x-4  lg:mx-0" key={index}>
                                                         <div className="text-primary">{item.icon}</div>
-                                                        <div>{item.text}</div>
+                                                        <div className="text-left">{item.text}</div>
                                                     </div>
                                                 );
                                             })}
