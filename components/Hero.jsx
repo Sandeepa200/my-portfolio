@@ -87,9 +87,10 @@ const Hero = () => {
             />
             {/* developer image  */}
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
+            <div className="bg-hero_shape w-[510px] h-[462px] bg-no-repeat absolute -top-1 -right-2"></div>
             <DevImg
-              containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
-              imgScr="/hero/developer.png"
+              containerStyles="w-[462px] h-[500px] relative -left-5"
+              imgScr="/hero/dev-img-1.PNG"
             />
           </div>
         </div>
