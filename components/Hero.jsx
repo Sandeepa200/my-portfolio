@@ -40,9 +40,11 @@ const Hero = () => {
                   Contact Me <Send size={18} />
                 </Button>
               </Link>
-              <Button variant="secondary" className="gap-x-2 ">
-                Download CV <Download size={18} />
-              </Button>
+              <a href="/hero/Resume-Sandeepa-Rambukwella.pdf" download="Resume-Sandeepa-Rambukwella.pdf">
+                <Button variant="secondary" className="gap-x-2 ">
+                  Download CV <Download size={18} />
+                </Button>
+              </a>
             </div>
             {/* socials  */}
             <Socials
@@ -69,21 +71,13 @@ const Hero = () => {
             />
             {/* badge 3  */}
             <Badge
-              containerStyles="absolute top-[55%] -right-8 "
+              containerStyles="absolute top-[50%] -right-20 "
               icon={<FaPython />}
               endCountNum={9}
               endCountText="k"
               badgeText="AI Projects"
             />
             {/* badge 4  */}
-            <Badge
-              containerStyles="absolute top-[20%] -right-8 "
-              icon={<SiCsharp />}
-              endCountNum={4}
-              endCountText="k"
-              badgeText="C#"
-            />
-            {/* badge 5  */}
             <Badge
               containerStyles="absolute top-[75%] -right-0.5 "
               icon={<SiBlazor />}
