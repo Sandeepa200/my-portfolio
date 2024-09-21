@@ -101,7 +101,7 @@ const Work = () => {
         >
           <h2 className="section-title mb-4">Latest Projects</h2>
           <p className="subtitle mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Take a look at some of the recent work I've been involved in, showcasing my skills in web, mobile, and AI development.
           </p>
           <Link href="/projects">
             <Button>All Projects</Button>

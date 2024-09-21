@@ -15,9 +15,9 @@ const Contact = () => {
               Say Hello
               <span className="lg:hidden w-[30px] h-[2px] bg-primary"></span> 
             </div>
-            <h1 className="h1 mx-auto max-w-md mb-8">Let's Work together</h1>
+            <h1 className="h1 mx-auto max-w-md mb-8">Let's Collaborate on Something Great!</h1>
             <p className="mx-auto subtitle max-w-[400px]">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, minima!
+            I'm always excited to work on new projects and bring innovative ideas to life. Feel free to reach out, and let's discuss how we can create something amazing together!
             </p>
           </div>
           {/* illustrations  */}

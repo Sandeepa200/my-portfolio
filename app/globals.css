@@ -135,7 +135,7 @@
 }
 
 .subtitle {
-  @apply text-muted-foreground text-lg mb-8 font-light;
+  @apply text-muted-foreground lg:text-lg mb-8 font-light;
 }
 
 .section-title {

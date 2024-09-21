@@ -3,11 +3,13 @@ import { Button } from "./ui/button";
 import { Download, Send } from "lucide-react";
 
 import {
-  RiBriefcase4Fill,
-  RiTeamFill,
-  RiTodoFill,
+  RiReactjsFill,
+  RiFlutterFill,
   RiArrowDownSLine,
 } from "react-icons/ri";
+
+import { FaPython } from "react-icons/fa";
+import { SiCsharp, SiBlazor } from "react-icons/si";
 
 //components
 import DevImg from "./DevImg";
@@ -26,10 +28,11 @@ const Hero = () => {
             </div>
             <h1 className="h1 mb-4">Hello, My Name Is Sandeepa Rambukwella</h1>
             <p className="subtitle max-w-[490px] mx-auto lg:mx-0">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
-              quibusdam corporis laboriosam odio sint vero adipisci cupiditate
-              asperiores ea minima?
+              I'm a full-stack developer with expertise in web and mobile
+              development with AI integrations, I bring innovative solutions to real-world problems, 
+              blending creativity with cutting-edge technology. 
             </p>
+            
             {/* buttons  */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
               <Link href="/contact">
@@ -52,14 +55,14 @@ const Hero = () => {
             {/* badge 1  */}
             <Badge
               containerStyles="absolute top-[24%] -left-[5rem] "
-              icon={<RiBriefcase4Fill />}
-              endCountNum={3}
+              icon={<RiReactjsFill />}
+              endCountNum={1}
               badgeText="Years of Experience"
             />
             {/* badge 2  */}
             <Badge
               containerStyles="absolute top-[80%] -left-[1rem] "
-              icon={<RiTodoFill />}
+              icon={<RiFlutterFill />}
               endCountNum={6}
               endCountText="k"
               badgeText="Happy Clients"
@@ -67,11 +70,28 @@ const Hero = () => {
             {/* badge 3  */}
             <Badge
               containerStyles="absolute top-[55%] -right-8 "
-              icon={<RiTeamFill />}
+              icon={<FaPython />}
               endCountNum={9}
               endCountText="k"
-              badgeText="Finished Projects"
+              badgeText="AI Projects"
             />
+            {/* badge 4  */}
+            <Badge
+              containerStyles="absolute top-[20%] -right-8 "
+              icon={<SiCsharp />}
+              endCountNum={4}
+              endCountText="k"
+              badgeText="C#"
+            />
+            {/* badge 5  */}
+            <Badge
+              containerStyles="absolute top-[75%] -right-0.5 "
+              icon={<SiBlazor />}
+              endCountNum={3}
+              endCountText="k"
+              badgeText="Blazor"
+            />
+            {/* developer image  */}
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
             <DevImg
               containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"

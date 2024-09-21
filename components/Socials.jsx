@@ -12,25 +12,25 @@ import Link from "next/link";
 
 const icons = [
   {
-    path: '/',
+    path: 'https://www.youtube.com/channel/UCx52AOVxrBGGBzlRkysfBsA',
     name: <RiYoutubeFill/>
   },
   {
-    path: '/',
+    path: 'https://www.linkedin.com/in/sandeepa-rambukwella',
     name: <RiLinkedinFill/>
   },
   {
-    path: '/',
+    path: 'https://github.com/Sandeepa200',
     name: <RiGithubFill/>
   },
   {
-    path: '/',
+    path: 'https://web.facebook.com/p/Sandeepa-Rambukwella-100082623686317/?_rdc=1&_rdr',
     name: <RiFacebookFill/>
   },
-  {
-    path: '/',
-    name: <RiInstagramFill/>
-  },
+  // {
+  //   path: '/',
+  //   name: <RiInstagramFill/>
+  // },
 
 ]
 

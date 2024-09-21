@@ -12,17 +12,17 @@ const servicesData = [
     {
         icon: <GanttChartSquare size={72} strokeWidth={0.8}/>,
         title: "Fullstack Development",
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum accusantium voluptatem ratione minima illum, magni mollitia vel ducimus asperiores unde."
+        description: "Building responsive and dynamic web applications using modern technologies like React, Next.js, and .NET Blazor to deliver seamless user experiences."
     },
     {
         icon: <Blocks size={72} strokeWidth={0.8}/>,
         title: "Mobile Application Development",
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum accusantium voluptatem ratione minima illum, magni mollitia vel ducimus asperiores unde."
+        description: "Creating intuitive and high-performing mobile apps with Flutter and .NET MAUI offering cross-platform functionality for both Android and iOS."
     },
     {
         icon: <GanttChartSquare size={72} strokeWidth={0.8}/>,
         title: "AI Application Development",
-        description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum accusantium voluptatem ratione minima illum, magni mollitia vel ducimus asperiores unde."
+        description: "Integrating AI solutions using Python and APIs to develop intelligent applications that solve complex real-world problems."
     }
 
 ];
