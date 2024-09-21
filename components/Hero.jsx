@@ -59,31 +59,31 @@ const Hero = () => {
               containerStyles="absolute top-[24%] -left-[5rem] "
               icon={<RiReactjsFill />}
               endCountNum={1}
-              badgeText="Years of Experience"
+              badgeText="Web Apps"
             />
             {/* badge 2  */}
             <Badge
               containerStyles="absolute top-[80%] -left-[1rem] "
               icon={<RiFlutterFill />}
-              endCountNum={6}
-              endCountText="k"
-              badgeText="Happy Clients"
+              endCountNum={4}
+              //endCountText="k"
+              badgeText="Mobile Apps"
             />
             {/* badge 3  */}
             <Badge
               containerStyles="absolute top-[50%] -right-20 "
               icon={<FaPython />}
-              endCountNum={9}
-              endCountText="k"
+              endCountNum={4}
+              //endCountText="k"
               badgeText="AI Projects"
             />
             {/* badge 4  */}
             <Badge
               containerStyles="absolute top-[75%] -right-0.5 "
               icon={<SiBlazor />}
-              endCountNum={3}
-              endCountText="k"
-              badgeText="Blazor"
+              endCountNum={1}
+              //endCountText="k"
+              badgeText=".NET with Blazor "
             />
             {/* developer image  */}
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
