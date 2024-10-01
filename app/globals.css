@@ -2,58 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base {
-  @layer base {
-    :root {
-      --background: 0 0% 100%;
-      --foreground: 240 19% 16%;
-      --card: 0 0% 100%;
-      --card-foreground: 240 19% 16%;
-      --popover: 0 0% 100%;
-      --popover-foreground: 20 14.3% 4.1%;
-      --primary: 8 99% 67%;
-      --primary-foreground: 300 0% 100%;
-      --secondary: 240 19% 16%;
-      --secondary-foreground: 300 0% 100%;
-      --tertiary: 27 82% 98%;
-      --muted: 60 4.8% 95.9%;
-      --muted-foreground: 237 13% 40%;
-      --accent: 237 9% 96%;
-      --accent-foreground: 24 9.8% 10%;
-      --destructive: 0 84.2% 60.2%;
-      --destructive-foreground: 60 9.1% 97.8%;
-      --border: 8 82% 92%;
-      --input: 8 82% 92%;
-      --ring: 9 99% 67%;
-      --radius: 0.5rem;
-    }
-
-    .dark {
-      --background: 237 22% 20%;
-      --foreground: 60 9.1% 97.8%;
-      --card: 240 19% 16%;
-      --card-foreground: 300 0% 100%;
-      --popover: 20 14.3% 4.1%;
-      --popover-foreground: 60 9.1% 97.8%;
-      --primary: 8 99% 67%;
-      --primary-foreground: 300 30% 100%;
-      --secondary: 240 19% 16%;
-      --secondary-foreground: 300 0% 100%;
-      --tertiary: 237 22% 20%;
-      --muted: 12 6.5% 15.1%;
-      --muted-foreground: 237 13% 63%;
-      --accent: 240 19% 16%;
-      --accent-foreground: 300 0% 100%;
-      --destructive: 0 72.2% 50.6%;
-      --destructive-foreground: 60 9.1% 97.8%;
-      --border: 237 22% 23%;
-      --input: 237 22% 23%;
-      --ring: 8 99% 67%;
-    }
-  }
-} */
-
-
 /*new theme colors*/
 
 @layer base {
@@ -80,6 +28,8 @@
       --input: 270 15% 85%; /* Light violet input fields */
       --ring: 270 60% 50%; /* Violet ring for focus */
       --radius: 0.5rem;
+      --particle-color: 260 25% 20%; /* Black in HSL */
+      --particle-link-color: 260 25% 20%; /* Black for light mode links in HSL */
     }
 
     .dark {
@@ -103,6 +53,8 @@
       --border: 240, 20%, 60%; /* Dark purple border */
       --input: 240, 20%, 60%; /* Dark purple input field */
       --ring: 270 60% 40%; /* Violet focus ring */
+      --particle-color: 0 0% 100%; /* White in HSL */
+      --particle-link-color: 0 0% 100%; /* White for dark mode links in HSL */
     }
   }
 }

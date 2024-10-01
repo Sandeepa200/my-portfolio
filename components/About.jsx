@@ -10,7 +10,6 @@ import {
   GraduationCap,
   Calendar,
   Briefcase,
-  University,
 } from "lucide-react";
 
 const infoData = [

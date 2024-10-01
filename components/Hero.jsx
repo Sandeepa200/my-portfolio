@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { Download, Send } from "lucide-react";
@@ -15,10 +17,12 @@ import { SiCsharp, SiBlazor } from "react-icons/si";
 import DevImg from "./DevImg";
 import Badge from "./Badge";
 import Socials from "./Socials";
+import Particle from "./helper/Particle";
 
 const Hero = () => {
   return (
     <section className="py-12 xl:py-24 h-[100vh] xl:pt-11 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
+      <Particle />
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           {/* text  */}
