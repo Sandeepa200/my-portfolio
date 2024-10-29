@@ -147,7 +147,7 @@ const About = () => {
                                 {/* personal  */}
                                 <TabsContent value="personal" >
                                     <div className="text-center xl:text-left">
-                                        <h3 className="h3 mb-4">Unmatched Service Quality for Over 10 Years</h3>
+                                        <h3 className="h3 mb-4">Who Am I</h3>
                                         <p className="subtitle max-w-xl mx-auto xl:mx-0">
                                             I specialize in crafting intuitive websites with
                                             cutting-edge technology, delivering dynamic and engaging
