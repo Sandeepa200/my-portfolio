@@ -19,18 +19,18 @@ const projectCard = [
   {
     image: "/Work/3.png",
     category: "React js",
-    name: "Nexa Website",
+    name: "Ai Travel Planner",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eaque.",
-    link: "https://ladyblakearamaya.com",
-    github: "https://ladyblakearamaya.com",
+      "Ai Travel Planner is a web application that uses the OpenAI API to generate travel plans based on user input.",
+    link: "https://ai-travel-planner.netlify.app",
+    github: "https://github.com/Sandeepa200/ai-travel-planner",
   },
   {
     image: "/Work/4.png",
     category: "React js",
-    name: "Solstice Website",
+    name: "Lady Blake Aramaya",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, eaque.",
+      "A Commercial Project Developed for a buddhist monastery in Sri Lanka",
     link: "https://ladyblakearamaya.com",
     github: "https://ladyblakearamaya.com",
   },
